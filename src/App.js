@@ -7,6 +7,8 @@ import "react-datepicker/dist/react-datepicker.css";
 import ReactTable from "react-table";
 import "react-table/react-table.css";
 import axios from "axios";
+import LoadingSpinner from './LoadingSpinner';
+
 class App extends React.Component {
 
   constructor(props) {
@@ -91,12 +93,12 @@ class App extends React.Component {
     let content;
     const { emp_data, isLoading } = this.state;
     if (isLoading) {
-      content = <div>Loading...</div>;
+      content = <div><LoadingSpinner /> </div>;
     }
     else {
       content = <div>
         <ReactTable
-          data={emp_data}
+          data={emp_data} 
           filterable
           defaultFilterMethod={(filter, row) =>
             String(row[filter.id]) === filter.value
@@ -171,6 +173,7 @@ class App extends React.Component {
               }
             };
           }}
+          
         />
       </div >
 
