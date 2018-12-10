@@ -7,8 +7,78 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.rt-th input {
+  width: 100%;
+}
 
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  margin: 0px 10px;
+}
+nav ul li a p {
+  padding: 7px 20px;
+  font-weight: 500;
+  margin: 0px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #000000b8;
+  border: 1px solid #ff190075;
+  background: #ff190075;
+}
+nav ul li a p:hover {
+  color: black;
+}
+nav ul {
+  display: inline-block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+  display: inline-block;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+#root {
+  padding: 20px;
+}
+.Blogs ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.Posts ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.Blogs li {
+  display: inline-block;
+  margin: 20px;
+}
+
+.Posts li {
+  display: inline-table;
+  margin: 10px;
+}
+
+.Blogs a {
+  text-decoration: none;
+  color: black;
+}
+
+.Blogs a:hover,
+.Blogs a:active {
+  color: orange;
 }
