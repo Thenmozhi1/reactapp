@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -46,3 +47,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 =======
 # heroku-react
 >>>>>>> origin/master
+=======
+# reactapp
+>>>>>>> 63a4bf4e4682b11f9a9b02623f60d6b0ccd900f1
