@@ -51,8 +51,8 @@ class Department extends React.Component {
 
     const newData = json.data.content.map(result => ({
       deptid: result.deptid,
-      deptname: result.deptname
-      //  depthead: result.depthead
+      deptname: result.deptname,
+      //depthead: result.depthead
     }));
 
     this.setState({

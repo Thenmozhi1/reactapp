@@ -112,7 +112,7 @@ class Employee extends React.Component {
       country: result.country,
       doj: result.doj,
       desg: result.desg,
-      deptname: result.deptid.deptname,
+      deptname: result.deptname,
       Dep_head: result.deptid
     }));
 
@@ -214,9 +214,10 @@ class Employee extends React.Component {
                   }}
                 >
                   <option value="all"> Show all </option>
-                  <option value="dev">dev</option>
+                  <option value="dev">dev</option> 
                   <option value="Tester"> Tester </option>
                   <option value="Specialist"> Specialist </option>
+                  <option value="UI dev"> UI dev </option>
                 </select>
               )
             },
